@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Noto+Sans+Khmer:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{   
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-family: "Noto Sans Khmer", sans-serif;
+}
+section{ 
+    margin-top: 10rem;
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 15px;
+    border: solid 1px rgb(210, 203, 203);
+}
+form{
+    text-align: center;
+    line-height: 2.5;   
+}
+label{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+input{
+    padding: 5px 15px;
+    border-radius: 10px;    
+    border: solid 1px black;
+}
+button{
+    padding: 4px 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    cursor: pointer;
+}
